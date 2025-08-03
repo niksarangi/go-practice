@@ -1,34 +1,32 @@
 package main
 
-import "fmt"
+// func main() {
+// 	var twoD [2][3]int
+// 	for i := 0; i < 2; i++ {
+// 		for j := 0; j < 3; j++ {
+// 			twoD[i][j] = i + j
+// 		}
+// 	}
 
-func main() {
-	var twoD [2][3]int
-	for i := 0; i < 2; i++ {
-		for j := 0; j < 3; j++ {
-			twoD[i][j] = i + j
-		}
-	}
+// 	for i := 0; i < 2; i++ {
+// 		for j := 0; j < 3; j++ {
+// 			fmt.Print(twoD[i][j], " ")
+// 		}
+// 		fmt.Println()
+// 	}
 
-	for i := 0; i < 2; i++ {
-		for j := 0; j < 3; j++ {
-			fmt.Print(twoD[i][j], " ")
-		}
-		fmt.Println()
-	}
+// 	// Call functions from other files
+// 	printArray()
+// 	printClosure()
+// 	printFuncs()
+// 	printIfElse()
+// 	printHashMap()
+// 	printMap()
+// 	printREcursion()
+// 	printSlice()
+// 	printSwitch()
+// 	printMultipleREturn()
+// 	printVariadic()
+// 	pointerDemo()
 
-	// Call functions from other files
-	printArray()
-	printClosure()
-	printFuncs()
-	printIfElse()
-	printHashMap()
-	printMap()
-	printREcursion()
-	printSlice()
-	printSwitch()
-	printMultipleREturn()
-	printVariadic()
-	pointerDemo()
-
-}
+// }
